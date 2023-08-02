@@ -1,0 +1,137 @@
+* {
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+body {
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://starwalk.space/gallery/images/what-is-space/1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.top {
+    margin-top: 1%;
+    width: 100%;
+    height: 3%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-end;
+}
+.head-nav {
+    margin-right: 10%;
+}
+a {
+    text-decoration: none;
+    font-size: 30px;
+}
+.middle {
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.name-page {
+    font-size: 100px;
+    margin: 0;
+}
+.download {
+    /* background-color: aqua; */
+    margin: 0;
+    width: 60%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.download-status {
+    font-size: 20px ;
+    margin: 0;
+}
+.download-bar {
+    border: solid white 5px; 
+    width: 90%;
+    height: 20%;
+    padding: 0.1%;
+}
+.status-bar {
+    background-color: rgb(235, 231, 231);
+    width: 80%;
+    height: 95%;
+    margin: 0;
+}
+.num-percent {
+    font-size: 20px;
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.left-percent {
+    position: relative;
+    left: -3%;
+}
+.right-percent {
+    position: relative;
+    right: -6%;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    margin: 5%;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.social-icon {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    width: 50%;
+    height: 5%;
+}
+.icon-frame {
+    border: solid black;
+    background-color: white;
+    width: 8%;
+    height: 100%;
+    border-radius: 50%;
+}
+.icon-frame > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
